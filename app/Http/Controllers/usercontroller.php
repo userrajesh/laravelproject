@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\DB;
 //To use http or third party application data
 
 use Illuminate\Support\Facades\Http;
-
-class usercontroller extends Controller
+use Illuminate\Routing\Controller as BaseController;
+class usercontroller extends BaseController
 {
     public function send_Data(Request $req)
     {

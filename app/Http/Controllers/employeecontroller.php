@@ -5,8 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\employee;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller as BaseController;
 
-class employeecontroller extends Controller
+class employeecontroller extends BaseController
 {
     function get_employee()
     {
